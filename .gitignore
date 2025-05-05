@@ -11,3 +11,60 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignorowanie katalogów kompilacji i plików tymczasowych
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]Release/
+[Dd]ReleasePublic/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignorowanie katalogów IDE (np. Visual Studio, IntelliJ)
+.vs/
+.idea/
+
+# Pliki generowane przez IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorowanie plików specyficznych dla JetBrains (np. Rider, IntelliJ)
+/.idea/
+/*.iml
+
+# Ignorowanie plików konfiguracyjnych
+*.suo
+*.user
+
+# Ignorowanie plików kompilacji z narzędzi
+*.obj
+*.pdb
+*.idb
+*.ipdb
+
+# Ignorowanie plików generowanych przez kompilację .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+**/packages/
+
+# Pliki wynikowe i raporty z testów
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Ignorowanie plików dla systemu Windows (thumbs.db, desktop.ini)
+Thumbs.db
+Desktop.ini
+
+# Ignorowanie plików specyficznych dla JetBrains Rider
+.idea/
